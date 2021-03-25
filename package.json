@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^12.8.3",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
+    "antd": "^4.14.1",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.0",
     "babel-loader": "8.1.0",
@@ -56,7 +57,6 @@
     "react-refresh": "^0.8.3",
     "resolve": "1.18.1",
     "resolve-url-loader": "^3.1.2",
-    "sass-loader": "^10.0.5",
     "semver": "7.3.2",
     "style-loader": "1.3.0",
     "terser-webpack-plugin": "4.2.3",
@@ -147,5 +147,12 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.3",
+    "node-sass": "^5.0.0",
+    "react-router-dom": "^5.2.0",
+    "sass-loader": "^10.1.1",
+    "sass-resources-loader": "^2.1.1"
   }
 }
