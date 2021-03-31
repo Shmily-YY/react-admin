@@ -1,8 +1,6 @@
 import React from 'react'
 import { HashRouter, Switch, Route } from 'react-router-dom'
-import Home from './views/Home'
-import About from "./views/About"
-
+import Login from './views/login/index.js'
 
 class App extends React.Component {
   constructor(props) {
@@ -11,16 +9,11 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>
-        <HashRouter>
-          <Switch>
-            <Route exact component={Home} path="/"></Route>
-            <Route component={About} path="/about"></Route>
-            <Route></Route>
-          </Switch>
-        </HashRouter>
-      </div>
-
+      <HashRouter>
+        <Switch>
+          <Route exact component={Login} path="/"></Route>
+        </Switch>
+      </HashRouter>
     )
   }
 }
